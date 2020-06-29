@@ -1,0 +1,232 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 16 16 376 336)
+	(text "EXMEM" (rect 5 0 53 13)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 305 26 316)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "clear" (rect 0 0 29 13)(font "Arial" (font_size 8)))
+		(text "clear" (rect 21 27 50 40)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "preset" (rect 0 0 36 13)(font "Arial" (font_size 8)))
+		(text "preset" (rect 21 43 57 56)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "clock_id_ex" (rect 0 0 68 13)(font "Arial" (font_size 8)))
+		(text "clock_id_ex" (rect 21 59 89 72)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "inst_address_IdEx[31..0]" (rect 0 0 140 13)(font "Arial" (font_size 8)))
+		(text "inst_address_IdEx[31..0]" (rect 21 75 161 88)(font "Arial" (font_size 8)))
+		(line (pt 0 80)(pt 16 80)(line_width 3))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "ResultadoUla[31..0]" (rect 0 0 112 13)(font "Arial" (font_size 8)))
+		(text "ResultadoUla[31..0]" (rect 21 91 133 104)(font "Arial" (font_size 8)))
+		(line (pt 0 96)(pt 16 96)(line_width 3))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "dadosMemoria[31..0]" (rect 0 0 120 13)(font "Arial" (font_size 8)))
+		(text "dadosMemoria[31..0]" (rect 21 107 141 120)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 16 112)(line_width 3))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "UlaZero" (rect 0 0 46 13)(font "Arial" (font_size 8)))
+		(text "UlaZero" (rect 21 123 67 136)(font "Arial" (font_size 8)))
+		(line (pt 0 128)(pt 16 128))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "Branch" (rect 0 0 41 13)(font "Arial" (font_size 8)))
+		(text "Branch" (rect 21 139 62 152)(font "Arial" (font_size 8)))
+		(line (pt 0 144)(pt 16 144))
+	)
+	(port
+		(pt 0 160)
+		(input)
+		(text "LemMem" (rect 0 0 54 13)(font "Arial" (font_size 8)))
+		(text "LemMem" (rect 21 155 75 168)(font "Arial" (font_size 8)))
+		(line (pt 0 160)(pt 16 160))
+	)
+	(port
+		(pt 0 176)
+		(input)
+		(text "EscreveMem" (rect 0 0 75 13)(font "Arial" (font_size 8)))
+		(text "EscreveMem" (rect 21 171 96 184)(font "Arial" (font_size 8)))
+		(line (pt 0 176)(pt 16 176))
+	)
+	(port
+		(pt 0 192)
+		(input)
+		(text "EscreveReg" (rect 0 0 70 13)(font "Arial" (font_size 8)))
+		(text "EscreveReg" (rect 21 187 91 200)(font "Arial" (font_size 8)))
+		(line (pt 0 192)(pt 16 192))
+	)
+	(port
+		(pt 0 208)
+		(input)
+		(text "MemToReg" (rect 0 0 67 13)(font "Arial" (font_size 8)))
+		(text "MemToReg" (rect 21 203 88 216)(font "Arial" (font_size 8)))
+		(line (pt 0 208)(pt 16 208))
+	)
+	(port
+		(pt 0 224)
+		(input)
+		(text "RegDstEX[4..0]" (rect 0 0 88 13)(font "Arial" (font_size 8)))
+		(text "RegDstEX[4..0]" (rect 21 219 109 232)(font "Arial" (font_size 8)))
+		(line (pt 0 224)(pt 16 224)(line_width 3))
+	)
+	(port
+		(pt 0 240)
+		(input)
+		(text "HIIN[31..0]" (rect 0 0 61 13)(font "Arial" (font_size 8)))
+		(text "HIIN[31..0]" (rect 21 235 82 248)(font "Arial" (font_size 8)))
+		(line (pt 0 240)(pt 16 240)(line_width 3))
+	)
+	(port
+		(pt 0 256)
+		(input)
+		(text "LOIN[31..0]" (rect 0 0 66 13)(font "Arial" (font_size 8)))
+		(text "LOIN[31..0]" (rect 21 251 87 264)(font "Arial" (font_size 8)))
+		(line (pt 0 256)(pt 16 256)(line_width 3))
+	)
+	(port
+		(pt 0 272)
+		(input)
+		(text "hi_lo_enable_in" (rect 0 0 89 13)(font "Arial" (font_size 8)))
+		(text "hi_lo_enable_in" (rect 21 267 110 280)(font "Arial" (font_size 8)))
+		(line (pt 0 272)(pt 16 272))
+	)
+	(port
+		(pt 360 32)
+		(output)
+		(text "EnderecoPcBranch[31..0]" (rect 0 0 145 13)(font "Arial" (font_size 8)))
+		(text "EnderecoPcBranch[31..0]" (rect 194 27 339 40)(font "Arial" (font_size 8)))
+		(line (pt 360 32)(pt 344 32)(line_width 3))
+	)
+	(port
+		(pt 360 48)
+		(output)
+		(text "SaidaUla[31..0]" (rect 0 0 87 13)(font "Arial" (font_size 8)))
+		(text "SaidaUla[31..0]" (rect 252 43 339 56)(font "Arial" (font_size 8)))
+		(line (pt 360 48)(pt 344 48)(line_width 3))
+	)
+	(port
+		(pt 360 64)
+		(output)
+		(text "DadosEscreveMemoria[31..0]" (rect 0 0 167 13)(font "Arial" (font_size 8)))
+		(text "DadosEscreveMemoria[31..0]" (rect 172 59 339 72)(font "Arial" (font_size 8)))
+		(line (pt 360 64)(pt 344 64)(line_width 3))
+	)
+	(port
+		(pt 360 80)
+		(output)
+		(text "ZeroUla" (rect 0 0 46 13)(font "Arial" (font_size 8)))
+		(text "ZeroUla" (rect 293 75 339 88)(font "Arial" (font_size 8)))
+		(line (pt 360 80)(pt 344 80))
+	)
+	(port
+		(pt 360 96)
+		(output)
+		(text "BranchOut" (rect 0 0 61 13)(font "Arial" (font_size 8)))
+		(text "BranchOut" (rect 278 91 339 104)(font "Arial" (font_size 8)))
+		(line (pt 360 96)(pt 344 96))
+	)
+	(port
+		(pt 360 112)
+		(output)
+		(text "LeMemOut" (rect 0 0 63 13)(font "Arial" (font_size 8)))
+		(text "LeMemOut" (rect 276 107 339 120)(font "Arial" (font_size 8)))
+		(line (pt 360 112)(pt 344 112))
+	)
+	(port
+		(pt 360 128)
+		(output)
+		(text "EscreveMemOut" (rect 0 0 95 13)(font "Arial" (font_size 8)))
+		(text "EscreveMemOut" (rect 244 123 339 136)(font "Arial" (font_size 8)))
+		(line (pt 360 128)(pt 344 128))
+	)
+	(port
+		(pt 360 144)
+		(output)
+		(text "EscreveRegOut" (rect 0 0 90 13)(font "Arial" (font_size 8)))
+		(text "EscreveRegOut" (rect 249 139 339 152)(font "Arial" (font_size 8)))
+		(line (pt 360 144)(pt 344 144))
+	)
+	(port
+		(pt 360 160)
+		(output)
+		(text "MemToRegOut" (rect 0 0 87 13)(font "Arial" (font_size 8)))
+		(text "MemToRegOut" (rect 252 155 339 168)(font "Arial" (font_size 8)))
+		(line (pt 360 160)(pt 344 160))
+	)
+	(port
+		(pt 360 176)
+		(output)
+		(text "RegDstMem[4..0]" (rect 0 0 99 13)(font "Arial" (font_size 8)))
+		(text "RegDstMem[4..0]" (rect 240 171 339 184)(font "Arial" (font_size 8)))
+		(line (pt 360 176)(pt 344 176)(line_width 3))
+	)
+	(port
+		(pt 360 192)
+		(output)
+		(text "HIOUT[31..0]" (rect 0 0 75 13)(font "Arial" (font_size 8)))
+		(text "HIOUT[31..0]" (rect 264 187 339 200)(font "Arial" (font_size 8)))
+		(line (pt 360 192)(pt 344 192)(line_width 3))
+	)
+	(port
+		(pt 360 208)
+		(output)
+		(text "LOOUT[31..0]" (rect 0 0 80 13)(font "Arial" (font_size 8)))
+		(text "LOOUT[31..0]" (rect 259 203 339 216)(font "Arial" (font_size 8)))
+		(line (pt 360 208)(pt 344 208)(line_width 3))
+	)
+	(port
+		(pt 360 224)
+		(output)
+		(text "hi_lo_enable_out" (rect 0 0 97 13)(font "Arial" (font_size 8)))
+		(text "hi_lo_enable_out" (rect 242 219 339 232)(font "Arial" (font_size 8)))
+		(line (pt 360 224)(pt 344 224))
+	)
+	(drawing
+		(rectangle (rect 16 16 344 304))
+	)
+)

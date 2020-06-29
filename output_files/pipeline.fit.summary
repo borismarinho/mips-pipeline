@@ -1,0 +1,16 @@
+Fitter Status : Successful - Thu Dec 12 11:47:07 2019
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+Revision Name : pipeline
+Top-level Entity Name : MipsProcessador
+Family : Cyclone II
+Device : EP2C70F896C6
+Timing Models : Final
+Total logic elements : 6,040 / 68,416 ( 9 % )
+    Total combinational functions : 6,033 / 68,416 ( 9 % )
+    Dedicated logic registers : 1,609 / 68,416 ( 2 % )
+Total registers : 1609
+Total pins : 514 / 622 ( 83 % )
+Total virtual pins : 0
+Total memory bits : 262,144 / 1,152,000 ( 23 % )
+Embedded Multiplier 9-bit elements : 8 / 300 ( 3 % )
+Total PLLs : 0 / 4 ( 0 % )
